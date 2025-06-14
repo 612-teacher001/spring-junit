@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="parts/head"></head>
+<body>
+	<header th:replace="parts/header"></header>
+	<main>
+		<article>
+			<h2>インデックス</h2>
+			<ul>
+				<li><a href="/items/list">商品管理</a></li>
+				<li><a href="/users/list">利用者管理</a></li>
+			</ul>
+		</article>
+	</main>
+	<footer th:replace="parts/footer"></footer>
+</body>
+</html>
